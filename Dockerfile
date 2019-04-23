@@ -1,5 +1,5 @@
-FROM consul:1.2.1
+FROM consul:1.4.4
 
-ADD run.sh /run.sh
+COPY run.sh /run.sh
 
 ENTRYPOINT ["/run.sh"]
